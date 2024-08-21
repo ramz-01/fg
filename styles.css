@@ -1,0 +1,94 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Warna hitam lembut */
+    color: #f0f0f0; /* Warna putih keabu-abuan */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b0b0b0; /* Warna abu-abu untuk subtitle */
+}
+
+main {
+    padding: 2rem;
+}
+
+.video-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.video-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-list h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.video-item {
+    flex: 1 1 300px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.video-item p {
+    margin-top: 0.5rem;
+    color: #d0d0d0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+}
